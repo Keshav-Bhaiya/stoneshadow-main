@@ -116,22 +116,22 @@ const Navbar = () => {
             <div className="hidden lg:flex items-center gap-3">
               {/* Phone icon — opens dialer */}
               <a
-                href="tel:+919301570972"
+                href="tel:+91 9109496156"
                 className="w-9 h-9 rounded-full border border-gray-200 flex items-center
                            justify-center text-gray-500 hover:border-[#5C3D2E] hover:text-[#5C3D2E]
                            hover:-translate-y-0.5 transition-all duration-300"
-                title="+91 93015 70972"
+                title="+91 9109496156"
               >
                 <Phone size={15} />
               </a>
 
               {/* Email icon — opens mail app */}
               <a
-                href="mailto:keshavb266@gmail.com"
+                href="mailto:surajrajput781@gmail.com"
                 className="w-9 h-9 rounded-full border border-gray-200 flex items-center
                            justify-center text-gray-500 hover:border-[#5C3D2E] hover:text-[#5C3D2E]
                            hover:-translate-y-0.5 transition-all duration-300"
-                title="keshavb266@gmail.com"
+                title="surajrajput781@gmail.com"
               >
                 <Mail size={15} />
               </a>
@@ -186,18 +186,18 @@ const Navbar = () => {
             {/* Mobile contact info */}
             <div className="pt-4 space-y-3">
               <a
-                href="tel:+919301570972"
+                href="tel:+91 9109496156"
                 className="flex items-center gap-3 text-[13px] text-gray-500 hover:text-[#5C3D2E]
                            transition-colors"
               >
-                <Phone size={14} /> +91 93015 70972
+                <Phone size={14} /> +91 9109496156
               </a>
               <a
                 href="mailto:keshavb266@gmail.com"
                 className="flex items-center gap-3 text-[13px] text-gray-500 hover:text-[#5C3D2E]
                            transition-colors"
               >
-                <Mail size={14} /> keshavb266@gmail.com
+                <Mail size={14} /> surajrajput781@gmail.com
               </a>
               <button
                 onClick={() => scrollTo('contact')}
